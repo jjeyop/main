@@ -1,0 +1,31 @@
+.react-calendar {
+  font-size: 1.2rem; 
+}
+
+.react-calendar__tile {
+  padding: 1.2rem !important;  
+}
+
+.react-calendar__month-view__weekdays abbr {
+  text-decoration: none !important;
+}
+
+.react-calendar__month-view__weekdays {
+  border-bottom: none;
+  font-size: 1.1rem; 
+  font-weight: 600;
+  padding: 0.3rem 0; 
+  text-align: center;
+}
+
+.react-calendar__tile--active {
+  background: #dbeafe !important; 
+  color: black !important;
+  border-radius: 10px;
+}
+
+.react-calendar__tile--now {
+  background: #fef9c3 !important; 
+  color: #d97706 !important;
+  border-radius: 10px;
+}
